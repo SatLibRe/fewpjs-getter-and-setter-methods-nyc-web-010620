@@ -11,4 +11,8 @@ class Circle {
   get circumference(){
     return 2 * (3.14 * this.radius )
   }
+  
+  get area(){
+    return 2 * (3.14 * this.radius )
+  }
 }

@@ -16,7 +16,7 @@ class Circle {
     return (3.14 * Math.pow(this.radius,2)  )
   }
   
-  set radius(diameter){
-    this.diameter = Math.sqrt(this.diameter)
+   set diameter(diameter){
+    this.radius = diameter/2
   }
 }

@@ -15,4 +15,8 @@ class Circle {
   get area(){
     return (3.14 * Math.pow(this.radius,2)  )
   }
+  
+  sets radius(){
+    return this.diameter
+  }
 }

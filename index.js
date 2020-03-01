@@ -17,6 +17,6 @@ class Circle {
   }
   
   sets radius(){
-    return this.diameter
+    return Math.sqrt(this.diameter)
   }
 }

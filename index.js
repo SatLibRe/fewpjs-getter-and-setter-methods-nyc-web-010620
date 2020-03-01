@@ -13,6 +13,6 @@ class Circle {
   }
   
   get area(){
-    return 2 * (3.14 * this.radius )
+    return (3.14 * this.radius )**2
   }
 }
